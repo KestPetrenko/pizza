@@ -1,0 +1,259 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap Multiple Item Product Carousel</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+   
+    </style>
+    <script>
+        $(document).ready(function () {
+            $(".wish-icon i").click(function () {
+                $(this).toggleClass("fa-heart fa-heart-o");
+            });
+        });  
+    </script>
+</head>
+
+<body>
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="item carousel-item active">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="karri.jpeg" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Цыпленок карри</h4>
+                                            <div class="star-rating">
+                                                <p>Цыпленок, ананасы, соус карри, красный лук, сладкий перец, моцарелла,
+                                                    фирменный томатный соус</p>
+                                            </div>
+                                            <p class="item-price"><b>от 439 ₽</b></p>
+                                            <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="miks.png" class="img-fluid"
+                                                alt="Headphone">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Мясной Микс</h4>
+                                            <div class="star-rating">
+                                                <p>Пастрами из индейки, острая чоризо, пикантная пепперони, бекон, моцарелла, фирменный томатный соус</p>
+                                            </div>
+                                            <p class="item-price"><b>от 499 ₽</b></p>
+                                            <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="cheese.png" class="img-fluid"
+                                                alt="Macbook">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Сырная </h4>
+                                            <div class="star-rating">
+                                                <p>Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо</p>
+                                            </div>
+                                            <p class="item-price"><b>от 289 ₽</b></p>
+                                            <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="Ham.png" class="img-fluid"
+                                                alt="Nikon">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Ветчина и сыр</h4>
+                                            <div class="star-rating">
+                                                <p>Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо</p>
+                                            </div>
+                                            <p class="item-price"><b>от 339 ₽</b></p>
+                                            <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item carousel-item">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="pepperoni.png" class="img-fluid"
+                                                alt="Play Station">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Пепперони фреш</h4>
+                                            <div class="star-rating">
+                                                <p>Пикантная пепперони, увеличенная порция моцареллы, томаты, фирменный томатный соус</p>
+                                            </div>
+                                            <p class="item-price"><span>от 289 ₽</span></p>
+                                            <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="Chorizo.png" class="img-fluid"
+                                                alt="Macbook">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Чоризо фреш</h4>
+                                            <div class="star-rating">
+                                                <p>Фирменный томатный соус, моцарелла, острая чоризо, сладкий перец</p>
+
+                                            </div>
+                                            <p class="item-price"><span>от 289 ₽</span></p>
+                                            <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="dodo.jpeg" class="img-fluid"
+                                                alt="Speaker">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Додо Микс</h4>
+                                            <div class="star-rating">
+                                                <p>Фирменный томатный соус, моцарелла, острая чоризо, сладкий перец</p>
+                                            </div>
+                                            <p class="item-price"><span>от 549 ₽</span></p>
+                                            <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="carbonara.png" class="img-fluid"
+                                                alt="Galaxy">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Карбонара</h4>
+                                            <div class="star-rating">
+                                                <p>Бекон, сыры чеддер и пармезан, моцарелла, томаты, красный лук, чеснок, фирменный соус альфредо, итальянские травы</p>
+                                            </div>
+                                            <p class="item-price"><span>от 499 ₽</span></p>
+                                            <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item carousel-item">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="dodo2.png" class="img-fluid"
+                                                alt="iPhone">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Додо</h4>
+                                            <div class="star-rating">
+                                                <p>Бекон, митболы, пикантная пепперони, моцарелла, томаты, шампиньоны, сладкий перец, красный лук, чеснок, фирменный томатный соус</p>
+                                            </div>
+                                            <p class="item-price"><span>от 499 ₽</span></p>
+                                            <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="pesta.png" class="img-fluid"
+                                                alt="Canon">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Песто</h4>
+                                            <div class="star-rating">
+                                                <p>Цыпленок, соус песто, кубики брынзы, томаты, моцарелла, фирменный соус альфредо</p>
+                                            </div>
+                                            <p class="item-price"><span>от 499 ₽</span></p>
+                                          
+                                            <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="ariva.png" class="img-fluid"
+                                                alt="Pixel">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Аррива!</h4>
+                                            <div class="star-rating">
+                                                <p>Цыпленок, острая чоризо, соус бургер, сладкий перец, красный лук, томаты, моцарелла, соус ранч, чеснок</p>
+                                            </div>
+                                            <p class="item-price"><span>от 439 ₽</span></p>
+                                            <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="chicken.png" class="img-fluid"
+                                                alt="Watch">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Сырный цыпленок</h4>
+                                            <div class="star-rating">
+                                                <p>Цыпленок, моцарелла, сыры чеддер и пармезан, сырный соус, томаты, фирменный соус альфредо, чеснок</p>
+                                            </div>
+                                            <p class="item-price"><span>от 499 ₽</span></p>
+                                            <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel controls -->
+                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

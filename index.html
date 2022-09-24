@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style/sliderHeader.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/body.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    <title>pizza</title>
+    <script>
+        $(document).ready(function () {
+            $(".wish-icon i").click(function () {
+                $(this).toggleClass("fa-heart fa-heart-o");
+            });
+        });  
+    </script>
+</head>
+
+<body id="table">
+    <header>
+        <section class="spikes">
+            <img src="img/logo.png" alt="logo" class="logoFooter">
+            <div class="divFooter">
+                <img src="img\3.png" alt="snack" class="pizzaFooter" onclick="window.location.href = '#mainPizza';">
+                <span>Пицца</span>
+            </div>
+            <div class="divFooter">
+                <img src="img\1.png" alt="snack" class="snackFooter" onclick="window.location.href = '#mainSnack';">
+                <span>Закуски</span>
+            </div>
+            <div class="divFooter">
+                <img src="img\2.png" alt="snack" class="waterFooter" onclick="window.location.href = '#mainWater';">
+                <span>Напитки</span>
+            </div>
+            <div class="divFooter1">
+                <span>г.Киев <br> ул. Степана Бандеры 20/22</span>
+                <span>+38-066-303-50-97</span>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="containerHeader">
+            <div class="slider" data-slider="itc-slider" data-loop="false">
+                <div class="slider__container">
+                    <div class="slider__wrapper">
+                        <div class="slider__items">
+                            <div class="slider__item">
+                                <img src="imgSliderHeader/9.jpg" alt="" class="img1">
+                                <h1 class="h1-1">Цыпленок карри</h1>
+                                <span class="span1">Цыпленок, ананасы, соус карри, красный лук, сладкий перец, <br>
+                                    моцарелла, фирменный
+                                    томатный соус</span>
+                            </div>
+                            <div class="slider__item">
+                                <img src="imgSliderHeader/11.jpg" alt="" class="img1">
+                                <h1 class="h1-1">Мясной Микс</h1>
+                                <span class="span1">Пастрами из индейки, острая чоризо, пикантная пепперони, <br> бекон,
+                                    моцарелла, фирменный
+                                    томатный соус</span>
+                            </div>
+                            <div class="slider__item">
+                                <img src="imgSliderHeader/3.jpeg" alt="" class="img1">
+                                <h1 class="h1-1">Сырная</h1>
+                                <span class="span1">Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо</span>
+                            </div>
+                            <div class="slider__item">
+                                <img src="imgSliderHeader/14.jpg" alt="" class="img1">
+                                <h1 class="h1-1">Ветчина и сыр</h1>
+                                <span class="span1">Ветчина, моцарелла, фирменный соус альфредо</span>
+                            </div>
+                            <div class="slider__item">
+                                <img src="imgSliderHeader/1.jpg" alt="" class="img1">
+                                <h1 class="h1-1">Пепперони фреш</h1>
+                                <span class="span1">Пикантная пепперони, увеличенная порция моцареллы, томаты, <br>
+                                    фирменный томатный
+                                    соус</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="slider__control" data-slide="prev"></button>
+                <button class="slider__control" data-slide="next"></button>
+            </div>
+
+        </div>
+    </main>
+
+    <main class="mainPizza" id="mainPizza">
+        <div class="titleMenu">
+            <h1 class="titlePizzaH1">Выбрать пиццу</h1>
+            <h2 class="titlePizzaH2">Мы желаем открыть Вам настоящий вкус итальянской пиццы!</h2>
+            <h2 class="titlePizzaH2">Выбирайте и заказывайте самую вкусную пиццу в городе</h2>
+        </div>
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="item carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="pizza/karri.jpeg" class="img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Цыпленок карри</h4>
+                                                <div class="star-rating">
+                                                    <p>Цыпленок, ананасы, соус карри, красный лук, сладкий перец,
+                                                        моцарелла,
+                                                        фирменный томатный соус</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">139</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="pizza/miks.png" class="img-fluid" alt="Headphone">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Мясной Микс</h4>
+                                                <div class="star-rating">
+                                                    <p>Пастрами из индейки, острая чоризо, пикантная пепперони, бекон,
+                                                        моцарелла, фирменный томатный соус</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">199</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="pizza/cheese.png" class="img-fluid" alt="Macbook">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Сырная </h4>
+                                                <div class="star-rating">
+                                                    <p>Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">89</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="pizza/Ham.png" class="img-fluid" alt="Nikon">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Ветчина и сыр</h4>
+                                                <div class="star-rating">
+                                                    <p>Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">159</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="pizza/pepperoni.png" class="img-fluid" alt="Play Station">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Пепперони фреш</h4>
+                                                <div class="star-rating">
+                                                    <p>Пикантная пепперони, увеличенная порция моцареллы, томаты,
+                                                        фирменный томатный соус</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">149</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="pizza/Chorizo.png" class="img-fluid" alt="Macbook">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Чоризо фреш</h4>
+                                                <div class="star-rating">
+                                                    <p>Фирменный томатный соус, моцарелла, острая чоризо, сладкий перец
+                                                    </p>
+
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">129</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="pizza/dodo.jpeg" class="img-fluid" alt="Speaker">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Додо Микс</h4>
+                                                <div class="star-rating">
+                                                    <p>Фирменный томатный соус, моцарелла, острая чоризо, сладкий перец
+                                                    </p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">199</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="pizza/carbonara.png" class="img-fluid" alt="Galaxy">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Карбонара</h4>
+                                                <div class="star-rating">
+                                                    <p>Бекон, сыры чеддер и пармезан, моцарелла, томаты, красный лук,
+                                                        чеснок, фирменный соус альфредо, итальянские травы</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">199</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="pizza/dodo2.png" class="img-fluid" alt="iPhone">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Додо</h4>
+                                                <div class="star-rating">
+                                                    <p>Бекон, митболы, пикантная пепперони, моцарелла, томаты,
+                                                        шампиньоны, сладкий перец, красный лук, чеснок, фирменный
+                                                        томатный соус</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">199 </span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="pizza/pesta.png" class="img-fluid" alt="Canon">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Песто</h4>
+                                                <div class="star-rating">
+                                                    <p>Цыпленок, соус песто, кубики брынзы, томаты, моцарелла, фирменный
+                                                        соус альфредо</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">199</span> грн</p>
+
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="pizza/ariva.png" class="img-fluid" alt="Pixel">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Аррива!</h4>
+                                                <div class="star-rating">
+                                                    <p>Цыпленок, острая чоризо, соус бургер, сладкий перец, красный лук,
+                                                        томаты, моцарелла, соус ранч, чеснок</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">139</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="pizza/chicken.png" class="img-fluid" alt="Watch">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Сырный цыпленок</h4>
+                                                <div class="star-rating">
+                                                    <p>Цыпленок, моцарелла, сыры чеддер и пармезан, сырный соус, томаты,
+                                                        фирменный соус альфредо, чеснок</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">199</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main class="mainSnack" id="mainSnack">
+        <div class="titleMenu">
+            <h1 class="titlePizzaH1">Выбрать закуски</h1>
+            <h2 class="titlePizzaH2">Выбирайте самые вкусные закуски и салаты на любой вкус!</h2>
+            <h2 class="titlePizzaH2">Дополните гармонией ваше меню сегодня</h2>
+        </div>
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="myCarousel1" class="carousel slide" data-ride="carousel" data-interval="0">
+                        
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel1" data-slide-to="1"></li>
+                            <li data-target="#myCarousel1" data-slide-to="2"></li>
+                        </ol>
+                      
+                        <div class="carousel-inner">
+                            <div class="item carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="slider snack\Dodster Curry.png" class="img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Цыпленок карри</h4>
+                                                <div class="star-rating">
+                                                    <p>Горячая закуска с цыпленком, ананасом, сладким перцем, моцареллой
+                                                        в тонкой пшеничной лепешке</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">139</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="slider snack\Dodster.jpeg" class="img-fluid" alt="Headphone">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Додстер</h4>
+                                                <div class="star-rating">
+                                                    <p>Легендарная горячая закуска с цыпленком, томатами, моцареллой,
+                                                        соусом ранч в тонкой пшеничной лепешке</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">199</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="slider snack\Spicy Dodster.jpeg" class="img-fluid"
+                                                    alt="Macbook">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Острый Додстер</h4>
+                                                <div class="star-rating">
+                                                    <p>Закуска с цыпленком, перчиком, маринованными
+                                                        огурчиками, томатами, моцареллой и соусом</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">129</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="slider snack\pesto.png" class="img-fluid" alt="Nikon">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Додстер Песто</h4>
+                                                <div class="star-rating">
+                                                    <p>Горячая закуска с цыпленком, любимым соусом песто, томатами и
+                                                        моцареллой в тонкой зеленой лепешке</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">139</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="slider snack\potatoes.jpeg" class="img-fluid"
+                                                    alt="Play Station">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Картофель из печи</h4>
+                                                <div class="star-rating">
+                                                    <p>Горячий запеченный картофель</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">89</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="slider snack\lanch.png" class="img-fluid" alt="Macbook">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Ланчбокс с крыльями</h4>
+                                                <div class="star-rating">
+                                                    <p>Горячий сытный обед из куриных крылышек со специями и ароматом
+                                                        копчения, картофеля из печи и соуса барбекю</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">289</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="slider snack\lanch2.png" class="img-fluid" alt="Speaker">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Ланч с курицей</h4>
+                                                <div class="star-rating">
+                                                    <p>Горячий сытный обед из нежных куриных кусочков, картофеля из печи
+                                                        и сырного соуса</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">249</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="slider snack\Chicken.jpeg" class="img-fluid" alt="Galaxy">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Куриные крылья</h4>
+                                                <div class="star-rating">
+                                                    <p>Куриные крылышки со специями и ароматом копчения. В порции
+                                                        присутствуют локтевые и плечевые части крылышек</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">199</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="slider snack\Chicken pieces.jpeg" class="img-fluid"
+                                                    alt="iPhone">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Куриные кусочки</h4>
+                                                <div class="star-rating">
+                                                    <p>Сочное куриное филе в хрустящей панировке</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">199</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="slider snack\123.jpeg" class="img-fluid" alt="Canon">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Цыпленок с грибами</h4>
+                                                <div class="star-rating">
+                                                    <p>Паста с цыпленком, шампиньонами и моцареллой под соусом ранч с
+                                                        добавлением итальянских трав</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">99</span> грн</p>
+
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="slider snack\Caesar salad.jpeg" class="img-fluid" alt="Pixel">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Салат Цезарь</h4>
+                                                <div class="star-rating">
+                                                    <p>Цыпленок, листья салата, томаты черри, сыр чеддер, соус цезарь,
+                                                        гренки, итальянские травы</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">139</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="slider snack\pestoCheese.png" class="img-fluid" alt="Watch">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Сырные палочки</h4>
+                                                <div class="star-rating">
+                                                    <p>Сытный перекус для компании. На пышном тесте песто и
+                                                        сыр. Соус ранч в комплекте — с ним вкуснее!</p>
+                                                </div>
+                                                <p class="item-price"><span class="spanPrice">99</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+      
+                        <a class="carousel-control-prev" href="#myCarousel1" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel1" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <main class="mainWater" id="mainWater">
+        <div class="titleMenu">
+            <h1 class="titlePizzaH1">Выбрать напитки</h1>
+            <h2 class="titlePizzaH2">Пиццу приятно запивать разными напитками.</h2>
+            <h2 class="titlePizzaH2">Для неё можно выьрать кока-колу, пепси, фанту, спрайт...</h2>
+        </div>
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="myCarousel2" class="carousel slide" data-ride="carousel" data-interval="0">
+           
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel2" data-slide-to="1"></li>
+                            <li data-target="#myCarousel2" data-slide-to="2"></li>
+                        </ol>
+                     
+                        <div class="carousel-inner">
+                            <div class="item carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper" id="wrapper">
+                                            <div class="img-box">
+                                                <img src="slider water\cola.png" class="img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Coca-Cola</h4>
+                                                <p class="item-price"><span class="spanPrice">39</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper" id="wrapper">
+                                            <div class="img-box">
+                                                <img src="slider water\gaz.png" class="img-fluid" alt="Headphone">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>BonAqua газована</h4>
+
+                                                <p class="item-price"><span class="spanPrice">39</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper" id="wrapper">
+                                            <div class="img-box">
+                                                <img src="slider water\cczero.png" class="img-fluid" alt="Macbook">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Coca-Cola Zero</h4>
+                                                <p class="item-price"><span class="spanPrice">39</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper" id="wrapper">
+                                            <div class="img-box">
+                                                <img src="slider water\NG.png" class="img-fluid" alt="Nikon">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>BonAqua негазована</h4>
+                                                <p class="item-price"><span class="spanPrice">39</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper" id="wrapper">
+                                            <div class="img-box">
+                                                <img src="slider water\fanta.png" class="img-fluid" alt="Play Station">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Fanta Апельсин</h4>
+
+                                                <p class="item-price"><span class="spanPrice">31</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper" id="wrapper">
+                                            <div class="img-box">
+                                                <img src="slider water\sprite.png" class="img-fluid" alt="Macbook">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Sprite</h4>
+
+                                                <p class="item-price"><span class="spanPrice">31</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper" id="wrapper">
+                                            <div class="img-box">
+                                                <img src="slider water\FUZE.png" class="img-fluid" alt="Speaker">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Fuzetea зі смаком лимону</h4>
+
+                                                <p class="item-price"><span class="spanPrice">40</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper" id="wrapper">
+                                            <div class="img-box">
+                                                <img src="slider water\fuzete.jpg" class="img-fluid" alt="Galaxy">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Fuzetea зі смаком персику</h4>
+
+                                                <p class="item-price"><span class="spanPrice">40</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper" id="wrapper">
+                                            <div class="img-box">
+                                                <img src="slider water\ind.png" class="img-fluid" alt="iPhone">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Schweppes Індіан Тонік</h4>
+
+                                                <p class="item-price"><span class="spanPrice">29</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper" id="wrapper">
+                                            <div class="img-box">
+                                                <img src="slider water\lemon.png" class="img-fluid" alt="Canon">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Schweppes Біттер лимон</h4>
+
+                                                <p class="item-price"><span class="spanPrice">29</span> грн</p>
+
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper" id="wrapper">
+                                            <div class="img-box">
+                                                <img src="slider water\Шепс.png" class="img-fluid" alt="Pixel">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Schweppes Мохіто</h4>
+                                                <p class="item-price">
+                                                    <span class="spanPrice">29</span> грн
+                                                </p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper" id="wrapper">
+                                            <div class="img-box">
+                                                <img src="slider water\1.jpeg" class="img-fluid" alt="Watch">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Schweppes Імбір</h4>
+                                                <p class="item-price"><span class="spanPrice">29</span> грн</p>
+                                                <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <a class="carousel-control-prev" href="#myCarousel2" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel2" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main class="orderMain">
+        <div class="order">
+            <p class="orderP">Ваш заказ :</p>
+
+
+            <p class="sum">Сумма :</p>
+        </div>
+        <div class="inputDiv">
+            <div class="div1OrderMain">
+                <input type="date" name="" id="" class="inputDate">
+                <input type="time" name="" id="" class="inputTime">
+            </div>
+            <div class="div1OrderMain">
+                <input type="text" class="inputName" value="Ваше имя*">
+                <input type="tel" name="" id="" class="inputPhone" value="Ваш телефон*">
+            </div>
+            <input type="text" class="inputAdress" value="Адрес доставки*">
+            <input type="text" class="inputComment" value="Комментарий к заказу*">
+            <div class="div3OrderMain">
+                <button class="button-33">Заказать</button>
+                <button class="button-33">Сбросить</button>
+            </div>
+        </div>
+
+
+
+    </main>
+    <script src="script/sliderHeader.js"></script>
+    <script src="script/order.js"></script>
+</body>
+
+</html>

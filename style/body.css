@@ -1,0 +1,282 @@
+body {
+    margin: 0px;
+    font-family: 'DynaPuff', cursive;
+}
+
+.spikes {
+    position: relative;
+    background: #e2eaef;
+    height: 9vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.spikes::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: -0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 10px;
+    background-size: 10px 100%;
+    background-image: linear-gradient(135deg, #e2eaef 25%, transparent 25%), linear-gradient(225deg, #e2eaef 25%, transparent 25%);
+    background-position: 0 0;
+}
+
+.logoFooter {
+    width: 7vw;
+}
+
+.divFooter {
+    width: 7vw;
+    height: 7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.divFooter:hover {
+    transform: scale(1.2);
+}
+
+
+.pizzaFooter,
+.snackFooter,
+.waterFooter {
+    width: 4vw;
+    height: 4vw;
+}
+
+.divFooter1 {
+    width: 21vw;
+}
+
+.divFooter1 span {
+    font-size: 1.5vw;
+}
+
+.titleMenu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1%;
+}
+
+
+.titlePizzaH1 {
+    font-size: 3vw;
+    color: inherit;
+    text-decoration: none;
+}
+
+.titlePizzaH1 {
+    background:
+        linear-gradient(to right, #7ac400, rgba(100, 200, 200, 1)),
+        linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+.titlePizzaH1:hover,
+.titlePizzaH1:focus {
+    background-size: 0 0.1em, 100% 0.1em;
+}
+
+.titlePizzaH2 {
+    margin: 1%;
+    font-size: 2vw;
+    color: inherit;
+    text-decoration: none;
+}
+
+.titlePizzaH2 {
+    background:
+        linear-gradient(to right, #7ac400, rgba(100, 200, 200, 1)),
+        linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+
+.titlePizzaH2:hover,
+.titlePizzaH2:focus {
+    background-size: 0 0.1em, 100% 0.1em;
+}
+
+.mainSnack {
+    background-image: url(6.jpg);
+    background-size: 102%;
+    height: 65vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 4%;
+}
+
+.orderMain {
+    background-image: url(7.jpg);
+    background-size: 100%;
+    height: 40vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-top: 2%;
+}
+
+.order {
+    width: 40%;
+    height: 90%;
+}
+
+.inputDiv {
+    width: 60vw;
+    height: 32vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.div1OrderMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40vw;
+}
+
+.inputDate,
+.inputTime,
+.inputName,
+.inputPhone {
+    width: 45%;
+    margin: 2%;
+}
+
+.inputAdress {
+    width: 38vw;
+    margin-left: 2%;
+}
+
+.inputComment {
+    height: 8vw;
+    width: 38vw;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.div3OrderMain {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-33 {
+    background-color: #7ac400;
+    border-radius: 20px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    transition: all 250ms;
+    border: 0;
+    font-size: 2vw;
+    touch-action: manipulation;
+    width: 12vw;
+    height: 4vw;
+}
+
+.button-33:hover {
+    box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+  .orderP{
+    font-size: 3vw;
+    color: #7ac400;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .order{
+    width: 40%;
+    height: 90%;
+    border: 1px solid #7ac400;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+  }
+
+  .container-xl {
+    max-width: 2940px;
+  }
+
+  .divFooter span{
+  font-size: 1.5vw;
+  }
+
+  .divOrderDiv {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 3vw;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 1%;
+}
+
+.orderDel {
+    width: 2vw;
+    height: 2vw;
+}
+
+.orderName {
+    width: 90%;
+    font-size: 1.5vw;
+}
+
+.orderAmount {
+    width: 4vw;
+    height: 3vw;
+    margin: 3%;
+}
+
+.orderPrice {
+    width: 30%;
+}
+
+.sum {
+    color: #7ac400;
+    font-size: 3vw;
+}
