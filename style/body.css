@@ -142,6 +142,7 @@ body {
     align-items: center;
     align-content: center;
     margin-top: 2%;
+    justify-content: center;
 }
 
 .order {
