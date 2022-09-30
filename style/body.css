@@ -281,3 +281,8 @@ body {
     color: #7ac400;
     font-size: 3vw;
 }
+ .containerHeader {
+            background-image: url(imgSliderHeader/1.jpg);
+            background-size: cover;
+            height: 70vh;
+        }
