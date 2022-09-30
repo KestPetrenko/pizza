@@ -125,24 +125,30 @@
 
 .span1 {
     position: relative;
-    top: -131%;
+    top: 115px;
     font-size: 3vw;
     text-align: center;
     width: 100%;
     align-items: center;
     display: flex;
     justify-content: center;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bolder;
 }
 
 .h1-1 {
     position: relative;
-    top: -136%;
+    top: 100px;
     font-size: 5vw;
-    color: black;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bolder;
+}
+
+.containerHeader {
+    background-image: url(imgSliderHeader/1.jpg);
+    background-size: cover;
+    height: 70vh;
 }
